@@ -1,3 +1,4 @@
+
 <html>
     <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
@@ -7,20 +8,25 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap" rel="stylesheet">
+
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
         <main>
-            <div class="header">
-                <h1>Generate a<span class="randomPasswd">random password</span></h1>
-                <h2>Never use an insecure password again.</h2>
-                <button id="btnGeneratePasswd" class="btnGeneratePasswd">Generate Passwords</button>
+            <h1>Generate a<span class="randomPasswd">random password</span></h1>
+            <h2>Never use an insecure password again.</h2>
+            <button id="btnGeneratePasswd" class="btnGeneratePasswd">Generate Passwords</button>
+            <div class="lineBtns">
                 <p class="divideLine"></p>
-                <div class="input-btn">
-                    <button id="btn-1"></button>
-                    <button id="btn-2"></button>
+                <div class="displayPasswdBtns">
+                    <button id="passwdBtnLeft" class="passwdBtnLeft"></button>
+                    <button id="passwdBtnRight" class="passwdBtnRight"></button>
                 </div>
-           
+                <p class="copy" id="copy">Click on the password to copy it 🤡</p>
             </div>
+            
+           
             
         </main>
         
